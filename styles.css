@@ -8,6 +8,11 @@ html, body {
     width: 100%;
     scroll-behavior: smooth;
     scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 .nav {
